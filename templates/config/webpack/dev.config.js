@@ -46,7 +46,7 @@ const loaders = [
     {test: /\.(jsx|js)?$/, loader: 'babel-loader'},
 
     //less
-    {test: /\.less$/, loader: 'style-loader!css-loader!postcss-loader!less-loader'},
+    {test: /\.less$/, loader: 'style-loader!css-loader!less-loader'},
 
     //css
     {test: /\.css$/, loader: 'style-loader!css-loader'},
