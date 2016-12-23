@@ -1,6 +1,6 @@
 {
   "name": "generator-chanjet-nova",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "chanjet-nova项目脚手架, 能够快捷生成一个基于chanjet-nova的WEB项目",
   "files": [
     "generators",
