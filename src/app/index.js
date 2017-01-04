@@ -38,11 +38,17 @@ module.exports = class extends Generator{
             this.destinationPath(this._userOptions.projectName)
         );
 
+        //重命名 test
+        // this.fs.move(
+        //     this.destinationPath(this._userOptions.projectName + '/test'),
+        //     this.destinationPath(this._userOptions.projectName + '/test')
+        // );
+
         //重命名.babelrc
-        this.fs.move(
-            this.destinationPath(this._userOptions.projectName + '/babelrc'),
-            this.destinationPath(this._userOptions.projectName + '/.babelrc')
-        );
+        // this.fs.move(
+        //     this.destinationPath(this._userOptions.projectName + '/babelrc'),
+        //     this.destinationPath(this._userOptions.projectName + '/.babelrc')
+        // );
     }
 
 };
